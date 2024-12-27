@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+
+
+
+.temp{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(209, 150, 150);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,111,1) 35%, rgba(0,212,255,1) 100%);
+    
+}
+
+.logo{
+    float: left;
+}
+
+.logo h3{
+    font-size: 20px;
+    color: rgb(223, 206, 206);
+    font-weight: bolder;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    
+    
+}
+
+.fa-solid{
+    font-size: 30px;
+    color: rgb(247, 238, 238);
+    float: left;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.input{
+    float: right;
+    margin-right: 20px;
+}
+input[type="search"]{
+   padding: 7px;
+   margin: 14px;
+   border-radius: 20px;
+   border: 1px solid;
+   background: rgb(149, 209, 241);
+
+}
+
+input[type="submit"]{
+    padding: 7px;
+    width: 80px;;
+    margin: 14px;
+    margin-left: -45px;
+    border-radius: 20px;
+    border: 1px solid;
+    background: rgb(171, 227, 236);
+ 
+ }
+
+ input[type="search"]:hover{
+    background: rgb(102, 232, 241);
+    color: rgb(243, 236, 236);
+ }
+ input[type="submit"]:hover{
+    background: rgb(102, 232, 241);
+    color: rgb(243, 236, 236);
+    font-weight:bolder;
+ }
+ 
+
+.navbar{
+    background: rgb(136, 211, 230);
+    height: 50px;
+}
+
+.menu{
+    float: left;
+    
+    margin-right: 50px;
+    position: relative;
+    left: 10px;
+
+}
+
+.menu a{
+    text-decoration: none;
+    padding:10px ;
+    font-size: 15px;
+    text-transform: uppercase;
+    float: left;
+    margin: 5px;
+    color: white;
+
+}
+
+.menu a:hover{
+    background: rgb(104, 194, 250);
+    border-radius: 10px;
+    color: black;
+}
+
+.profile{
+    float: right;
+    margin-right: 10px;
+    margin-top: -7px;
+}
+
+.profile .fa-solid{
+    color: rgb(239, 243, 243);
+}
+ .profile #carset{
+    position: relative;
+    right: 20px;
+   
+ }
+
+.bannersec{
+    background-image : url("images/99999999999.jpg");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border-bottom: 5px solid lightseagreen;
+   
+}
+
+.ban{
+    float: left;
+    margin-top: 50px;
+}
+
+.ban h2{
+    color: rgb(38, 143, 235);
+    font-size: 2rem;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.ban p{
+    color: rgb(38, 143, 235);
+    font-size: 1.5rem;
+    margin-left: 60px;
+    margin-bottom:10px ;
+    margin-top: -10px;
+    font-weight: bolder;
+
+}
+
+.ban button{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color:rgb(38, 143, 235) ;
+    font-size: 1.2rem;
+    margin-left: 150px;
+    border: 1px solid white;
+
+}
+
+.ban button:hover{
+    background-color:rgb(136, 211, 230) ;
+    color: black;
+    border: 1px solid rgb(22, 226, 226);
+}
+
+
+
+.slider{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(136, 211, 230);
+        ;
+}
+
+.slider img{
+    position: relative;
+    top: 20px;
+    left: 160px;
+    padding: 5px;
+    border: 1px solid rgb(209, 212, 228);
+    background-color: rgb(20, 77, 131);
+}
+
+.slider .pre{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(38, 143, 235);
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+}
+
+.slider .pre:hover{
+    background-color:rgb(70, 198, 230) ;
+    color: black;
+    border: 1px solid rgb(19, 57, 160);
+}
+
+.slider .nxt{
+    position: relative;
+    bottom: 100px;
+    left: 220px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(38, 143, 235);
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+}
+
+.slider .nxt:hover{
+    background-color:rgb(70, 198, 230) ;
+    color: black;
+    border: 1px solid rgb(19, 57, 160);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.design{
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,111,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+
+
+
+
+
+
+
+
+#menu{
+    padding:1%;
+    background:rgb(67, 164, 202);
+    height: 760px;
+     
+}
+
+.card-body{
+    text-align:center;
+}
+
+.card-body img{
+    width:180px;
+    height:150px;
+    display:block;
+    
+
+}
+
+.item{
+    background:rgb(92, 247, 239);
+}
+
+.item-name{
+    background:rgb(123, 249, 253);
+    padding:10px;
+    color:white;
+}
+
+.item p{
+    font-size:0.9rem;
+    padding:8px;
+    font-weight:bold;
+}
+
+.card{
+    transition:0.5s;
+    width:180px;
+    margin-top:30px;
+    float:left;
+    margin:27px;
+    margin-bottom:100px;
+   
+    
+}
+.card:hover{
+    transform:scale(1.1);
+}
+
+
+hr{
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,111,1) 35%, rgba(0,212,255,1) 100%);
+
+    position: relative;
+    top: -30px;
+}
+
+.allitems{
+    width: 100%;
+    height: 700px;
+    background: rgb(136, 211, 230);
+}
+
+.para p{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.img1 img{
+      width: 400px;
+      float: left;
+      padding: 5px;
+      border-radius: 50px;
+      border: 1px solid white;
+      background-color: #61b2c7;
+      margin: 20px;
+      position: relative;
+      top: -20px;
+}
+
+.img2 img{
+    width: 400px;
+    float: right;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #61b2c7;
+    margin: 20px;
+    position: relative;
+      top: -20px;
+}
+
+.img3 img{
+    width: 250px;
+    float: right;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #61b2c7;
+    margin: 20px;
+    margin-right: 35px;
+    position: relative;
+      top: -20px;
+}
+
+
+.btn button{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color:rgb(38, 143, 235) ;
+    font-size: 1.2rem;
+    margin-left: 150px;
+    border: 1px solid white;
+    position: relative;
+   bottom: 70px;
+   left: 600px;
+}
+
+.btn button:hover{
+    background-color:rgb(136, 211, 230) ;
+    color: black;
+    border: 1px solid rgb(1, 56, 56);
+}
+
+.para1 p{
+    color:white ;
+    position: relative;
+    bottom: 40px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.para1 p:hover{
+    color:black;
+}
+
+
+
+.footop{
+    background:gray;
+    height:120px;
+    position: relative;
+    bottom: 58px;
+    }
+    .footerleft{
+        width:300px;
+        float:left;
+        padding:10px;
+    }
+    .footerleft h3{
+        color:white;
+        border-bottom:1px solid ;
+        margin-bottom:10px;
+    }
+    
+    .footerleft p{
+        color:white;
+        
+    }
+    
+    .footerleft input[type="text"] {
+        padding: 7px;
+    width: 180px;;
+    margin: 14px;
+    margin-left: -45px;
+    border-radius: 20px;
+    border: 1px solid;
+    background: rgb(171, 227, 236);
+    margin-left: 10px;
+    }
+    .footerleft input[type="submit"] {
+        padding: 7px;
+    width: 80px;;
+    margin: 14px;
+    margin-left: -45px;
+    border-radius: 20px;
+    border: 1px solid;
+    background: rgb(171, 227, 236);
+    margin-left: -60px;
+    }
+    .footerleft a{
+        color:white;
+        margin-top:10px;
+    }
+    
+    .footbottom{
+        height:40px;
+        background:black;
+        position: relative;
+        bottom: 58px;
+    }
+    
+    .footleft p{
+      color:white;
+      float:left;
+      padding:10px;
+    }
+    
+    .footright p{
+        color:white;
+        float:right;
+         padding:10px;
+    }
+    
+    
